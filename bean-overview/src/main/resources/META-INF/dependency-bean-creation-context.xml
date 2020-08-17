@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1.静态方法    -->
+    <bean id="static-method-user" class="wang.sunce.ioc.domain.User" factory-method="createUser"/>
+
+    <!--2.实例方法    -->
+    <bean id="instance-method-user" class="wang.sunce.ioc.domain.User" factory-bean="userFactory"
+          factory-method="createUser"/>
+
+    <!--2.FactoryBean方法    -->
+    <bean id="factory-bean-user" class="wang.sunce.bean.instantiation.factory.UserFactoryBean"/>
+
+    <bean id="userFactory" class="wang.sunce.bean.instantiation.factory.DefaultUserFactory"/>
+</beans>

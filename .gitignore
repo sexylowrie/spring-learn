@@ -1,0 +1,3 @@
+# Project exclude paths
+/bean-overview/target/
+/ioc-container-overview/target/
