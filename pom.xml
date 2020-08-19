@@ -11,6 +11,7 @@
         <module>java-bean-ioc</module>
         <module>ioc-container-overview</module>
         <module>bean-overview</module>
+        <module>dependency-lookup</module>
     </modules>
     <packaging>pom</packaging>
 

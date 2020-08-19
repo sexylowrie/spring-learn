@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java-bean-ioc" />
         <module name="bean-overview" />
+        <module name="dependency-lookup" />
         <module name="ioc-container-overview" />
       </profile>
     </annotationProcessing>
