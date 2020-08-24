@@ -1,14 +1,11 @@
 package wang.sunce.xin.dependency.injection.setter;
 
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import wang.sunce.ioc.domain.SuperUser;
 import wang.sunce.ioc.domain.User;
-import wang.sunce.xin.dependency.injection.UserHolder;
+import wang.sunce.xin.dependency.injection.UserHolder;;
 
 /**
  * 基于API的依赖注入实现
