@@ -7,6 +7,16 @@
     <bean id="user" class="wang.sunce.ioc.domain.User">
         <property name="age" value="18"></property>
         <property name="name" value="sunce"></property>
+        <property name="city" value="BEIJING"></property>
+        <property name="workCities" value="BEIJING,HANGZHOU"></property>
+<!--        <property name="liveCities" value="BEIJING,SHANGHAI"></property>-->
+        <property name="liveCities">
+            <list>
+                <value>BEIJING</value>
+                <value>SHANGHAI</value>
+            </list>
+        </property>
+        <property name="location" value="classpath:/META-INF/user-config.properties"></property>
     </bean>
 
     <!-- primary="true" 作为主要 -->
